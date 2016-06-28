@@ -1,0 +1,8 @@
+nyc-citibike-data-master/
+Kaggle_bikeDemand/
+data/NY/*
+data/SF/*
+data/DC/*
+data/pollution/*
+bikeskey.pem
+backend/credens_pg.sh

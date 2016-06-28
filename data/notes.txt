@@ -1,0 +1,29 @@
+Main source: https://github.com/BetaNYC/Bike-Share-Data-Best-Practices/wiki/Bike-Share-Data-Systems
+
+
+
+For now, collecting DC, SF, NY
+
+Washington DC — Capital bikes share: https://s3.amazonaws.com/capitalbikeshare-data/index.html
+
+San fransisco bay area - http://www.bayareabikeshare.com/open-data
+
+New York — citibike - https://s3.amazonaws.com/tripdata/index.html 
+
+Weather data: 
+
+Carbon and energy efficiency: http://www.nyc.gov/html/gbee/html/plan/ll84_scores.shtml 
+
+
+
+Other visualizations: 
+
+http://jillhubley.com/project/nycemissions
+
+
+
+Other tools: 
+
+- torque.js
+- deep insights.js for full dashboards: https://github.com/CartoDB/deep-insights.js
+- http://namessanti.github.io/mobile-world-2/

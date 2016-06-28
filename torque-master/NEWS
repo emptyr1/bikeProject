@@ -1,0 +1,125 @@
+2.15.1
+    - Fixed ready event then rendering more than one step
+
+2.15.0
+    - Allow to render several steps at the same time (#247)
+
+2.14.0
+    - Allow custom animator range (#243)
+
+2.13.0
+    - Pass extra_params to server (#234)
+
+2.12.0
+    - Added TileJSON provider
+    - Added getValues to fetch values for step
+    - Improved reference/api documentation
+    - Removed out of date examples
+    
+2.11.4
+    - Static torque maps now draw correctly when unhiding them
+    - Fixed animation always playing when rescaling
+    - Added animator tests
+2.11.3
+    - Limited sprite radius to a maximum of 255px
+    - Fixed custom marker-file functionality in Firefox
+    - Fixed inertia mismatch of Torque's canvas layer
+    - Added opacity get/setter to canvas layer in Google Maps
+    - Fixed issue with `_super` being removed from listeners
+2.11.2
+    - Added error handling to Torque
+    - Fixed 'remove' event triggering when removing a Torque layer.
+    - Value is now capped at 255 instead of performing modulo on higher values.
+2.11.1
+    - Adapts usage of marker-opacity to Mapnik's functionality
+    - Added getValueForBBox to TorqueLayer's API
+
+2.11.0
+    - Do not fix values in the edge (#147)
+    - Windshaft provider accepts an optional data type for coordinates (#149)
+    - Acceptance tests
+    - renderTile accepts a callback to be called when rendering finishes
+    - tile rendering deferred until all assets are loaded
+    - sprite rendering now scales source to marker dimensions
+    - Filters accept a canvas class
+
+2.10.1
+    - Adjusted point position taking resolution into account
+    - Changed loop: false to pause animation at last frame
+    - On torque-frame-count: 1, always pause for better performance
+    - Fixes getTimeSpan
+
+2.10.0
+    - Adds timetostep method to torque layer
+    - Function qualifyURL can be provided to not rely on document's one
+
+2.9.0
+    - Added heatmaps
+    - Added image-filters
+    - Solved problem of CSS not updating the vis until reloaded
+    - Improved out of bounds correction function
+    - Fixed image-asset sizing
+    - Fixed items to load counter being sometimes negative
+    
+2.8.0
+    - Supports use of external image markers via marker-file
+    - Fixes Torque tiles not rendering outside normal lat/lng ranges.
+    - Fixes marker image default pivot point
+    - Fixes ghost frame being added to the end of animation
+    - Moved to browserify for compatibility with Node.js
+2.7.1
+    - Fix renderer not rendering marker-lines
+
+2.7.0
+    - Adds option to not fetch map when instantiating a windshaft provider (#74)
+
+2.6.1
+    - Fix marker fill opacity (#72)
+
+2.6.0
+    - Published using browserify
+
+2.5.xx
+    - Added support for several auth_token param
+    - Added support for cdn_url in winshaft provider
+    - Added option to jsonp to set custom callback name
+    - Added no_cdn option to windshaft provider
+    - Added getActivePointsBBox method
+    - Added renderer cache when the map is not animated
+    - Added interaction method
+    - Added stat_tag in the map creation url for windshaft provider
+    - Added invalidate method to L.TorqueLayer
+
+2.4.01
+    - fixed rectangle anchor and size #42
+    - fixed on method in torque.Event
+    - fixed problem updating steps when sql change in windshaft provider
+
+2.4.00 - May/22/2014
+    - Changed date parsing for windshaft provider
+    - Optimized tile loading
+    - Fixed cartocss update when windshaft.provider was being used
+    - Fixed windshaft provider with https
+    - Generate cartocss in windshaft provider (#37)
+    - Added zoom animation for leaflet
+    - Added metrics to track memory and time
+    - Pause on zoom
+    - Fixed sprite rendering when line width is a float
+
+2.3.00 - Feb/24/2014
+-----
+    - Added 'get attribution' function to Leaflet canvas layer.
+    - Added zIndex support to leaflet torque layer
+    - Added CartoDB Maps API data provider (used by default)
+    - Fixed rendering when CartoCSS had zoom conditions (#27)
+
+2.2.00 - Nov/26/2013
+-----
+    - added torque cumulative support #21
+
+2.1.00 - 11/11/2013
+-----
+    - added support to custom SQL query
+    - removed is_time option, it's not fetch from SQL-API
+    - steps is now the upper limit for steps
+    - multiple fixes

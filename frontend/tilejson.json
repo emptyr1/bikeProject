@@ -1,0 +1,8 @@
+{
+	"tiles": ["./{z}/{x}/{y}.json"],
+	"end": 1442455180000.0,
+	"column_type": "number",
+	"start": 1442401200000.0,
+	"data_steps": 2700,
+	"resolution": 2
+}
