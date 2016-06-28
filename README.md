@@ -9,6 +9,7 @@ To run the project, to `backend`-> `0_initialize_db.sh` that will create a local
 
 ### Bonus visualization
 
-![Alt Text](https://github.com/modqhx/bikeProject/tree/master/NY_Bike-Viz.gif) 
+![Alt Text](https://github.com/modqhx/bikeProject/blob/master/frontend/NY_Bike-Viz.gif) 
 
+#https://github.com/modqhx/bikeProject/blob/master/frontend/NY_Bike-Viz.gif
  
