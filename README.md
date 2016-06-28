@@ -9,7 +9,6 @@ To run the project, to `backend`-> `0_initialize_db.sh` that will create a local
 
 ### Bonus visualization
 
-![Alt Text](https://github.com/modqhx/bikeProject/blob/master/frontend/NY_Bike-Viz.gif) 
+![NY Citi Bikes](https://github.com/modqhx/bikeProject/blob/master/frontend/NY_Bike-Viz.gif) 
 
-#https://github.com/modqhx/bikeProject/blob/master/frontend/NY_Bike-Viz.gif
- 
+(This visualization is one day in November 2015 in NY. Each of those moving blue dot represent one `citi` bike going from one station to another. You can find the data sources and other notes here: https://github.com/modqhx/bikeProject/blob/master/data/notes.txt ) 
